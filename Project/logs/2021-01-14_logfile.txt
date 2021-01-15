@@ -1,0 +1,4 @@
+2021-01-14 18:14:36.9145 INFO Access home controller
+2021-01-14 18:14:50.6818 DEBUG Get a value
+2021-01-14 18:14:58.1717 ERROR This is an error
+2021-01-14 18:15:04.4467 WARN This is an warning
