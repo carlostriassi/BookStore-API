@@ -1,0 +1,46 @@
+2021-01-16 11:44:13.8467 INFO Attempted Get All Authors
+2021-01-16 11:44:15.3120 INFO Successfully got all Authors
+2021-01-16 11:46:01.2975 INFO Attempted Get All Authors
+2021-01-16 11:46:17.2019 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified) - 
+2021-01-16 12:03:01.7480 INFO Attempted Get an Author with id: 4
+2021-01-16 12:03:03.0094 WARN Author with id: 4 was not found
+2021-01-16 12:43:56.9537 INFO Author submission attempted
+2021-01-16 12:43:57.1098 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2021-01-16 12:45:57.4230 INFO Author submission attempted
+2021-01-16 12:45:58.7855 INFO Author created
+2021-01-16 12:47:10.0995 INFO Author submission attempted
+2021-01-16 12:47:11.4239 INFO Author created
+2021-01-16 12:47:37.6079 INFO Author submission attempted
+2021-01-16 12:47:37.6906 INFO Author created
+2021-01-16 13:08:43.5509 INFO Author updated attempted - id: 1
+2021-01-16 13:08:43.7009 ERROR Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Object -> Author
+System.Object -> BookStore_API.Data.Author - 
+2021-01-16 13:10:18.2083 INFO Author updated attempted - id: 1
+2021-01-16 13:10:19.4340 INFO Author updated
+2021-01-16 13:10:54.6465 INFO Attempted Get All Authors
+2021-01-16 13:10:54.8689 INFO Successfully got all Authors
+2021-01-16 13:12:14.5082 INFO Attempted Get an Author with id: 1
+2021-01-16 13:12:14.6376 INFO Successfully got an Author with id: 1
+2021-01-16 13:22:29.4987 INFO Author deleted attempted - id: 1
+2021-01-16 13:22:30.8620 INFO Author with id: 1 successfully deleted
+2021-01-16 13:23:07.8177 INFO Attempted Get All Authors
+2021-01-16 13:23:07.9081 INFO Successfully got all Authors
+2021-01-16 13:23:26.2797 INFO Author deleted attempted - id: 1
+2021-01-16 13:23:26.3221 WARN Author deleted not found - id: 1
+2021-01-16 13:27:40.8685 INFO Author submission attempted
+2021-01-16 13:27:42.8721 INFO Author created
+2021-01-16 13:27:51.7527 INFO Author deleted attempted - id: 1
+2021-01-16 13:27:52.0666 WARN Author deleted not found - id: 1
+2021-01-16 13:28:06.8226 INFO Author deleted attempted - id: 1
+2021-01-16 13:28:06.8562 WARN Author deleted not found - id: 1
+2021-01-16 13:28:34.5561 INFO Attempted Get All Authors
+2021-01-16 13:28:34.6215 INFO Successfully got all Authors
+2021-01-16 13:36:34.8764 INFO Attempted Get All Authors
+2021-01-16 13:36:36.0430 INFO Successfully got all Authors
