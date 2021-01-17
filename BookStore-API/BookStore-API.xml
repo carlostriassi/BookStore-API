@@ -17,7 +17,7 @@
             <returns>List of Authors</returns>
         </member>
         <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthor(System.Int32)">
-            <summary>
+            <summary> 
             Gets the author by Id
             </summary>
             <param name="id">The identifier.</param>
@@ -43,6 +43,27 @@
             Deletes the specified identifier.
             </summary>
             <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.GetBooks">
+            <summary>
+            Gets the books.
+            </summary>
+            <returns>A List of Books</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.GetBook(System.Int32)">
+            <summary>
+            Gets the book.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.Update(System.Int32,BookStore_API.DTOs.BookUpdateDTO)">
+            <summary>
+            Updates the specified identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <param name="bookDTO">The book dto.</param>
             <returns></returns>
         </member>
         <member name="T:BookStore_API.Controllers.HomeController">

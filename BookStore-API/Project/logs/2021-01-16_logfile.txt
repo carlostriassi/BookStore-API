@@ -44,3 +44,48 @@ System.Object -> BookStore_API.Data.Author -
 2021-01-16 13:28:34.6215 INFO Successfully got all Authors
 2021-01-16 13:36:34.8764 INFO Attempted Get All Authors
 2021-01-16 13:36:36.0430 INFO Successfully got all Authors
+2021-01-16 16:29:21.7022 INFO Books  - GetBooks: Attempted call Books
+2021-01-16 16:29:22.6893 INFO Books  - GetBooks: Successfully called Books
+2021-01-16 16:29:55.9748 INFO Books  - GetBook: Attempted call Book with id: 1
+2021-01-16 16:29:56.1230 WARN Books  - GetBook: Book with id: 1 was not found
+2021-01-16 16:54:40.9387 INFO Books  - Create: submission attempted
+2021-01-16 16:54:42.5096 ERROR Books  - Create: An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BooksStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:9c58acae-d990-4101-8ff4-65b4c94a40fa
+Error Number:547,State:0,Class:16
+2021-01-16 16:56:22.5589 INFO Books  - Create: submission attempted
+2021-01-16 16:56:22.6700 INFO Books  - Create: created
+2021-01-16 16:56:43.1172 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-16 16:56:43.4614 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-16 16:58:57.3882 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-16 17:15:52.7423 INFO Books  - Update: updated attempted - id: 2
+2021-01-16 17:15:54.2577 INFO Books  - Update: updated
+2021-01-16 17:44:29.5650 INFO Authors  - GetAuthors: Attempted call
+2021-01-16 17:44:30.7949 INFO {location}: Successfully got all Authors
+2021-01-16 17:45:38.1879 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-16 17:45:43.8703 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-16 17:56:53.7486 INFO Books  - Create: submission attempted
+2021-01-16 17:56:55.3658 INFO Books  - Create: created
+2021-01-16 18:00:16.3467 INFO Books  - Delete: Delete attempted - id: 3
+2021-01-16 18:00:16.8941 ERROR Books  - Delete: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2021-01-16 18:02:14.3572 INFO Books  - Delete: Delete attempted - id: 3
+2021-01-16 18:02:14.5353 ERROR Books  - Delete: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2021-01-16 18:02:46.4814 INFO Books  - Delete: Delete attempted - id: 3
+2021-01-16 18:03:09.0959 ERROR Books  - Delete: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2021-01-16 18:06:40.2851 INFO Books  - Delete: Delete attempted - id: 3
+2021-01-16 18:06:41.8482 ERROR Books  - Delete: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2021-01-16 18:07:56.4076 INFO Books  - Delete: Delete attempted - id: 3
+2021-01-16 18:07:57.8182 ERROR Books  - Delete: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2021-01-16 18:11:00.8196 INFO Books  - Delete: Delete attempted - id: 3
+2021-01-16 18:11:07.0392 INFO Books  - Delete: with id: 3 successfully deleted
