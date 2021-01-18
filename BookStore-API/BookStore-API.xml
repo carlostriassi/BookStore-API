@@ -85,5 +85,19 @@
               <br />
             </returns>
         </member>
+        <member name="M:BookStore_API.Controllers.UsersController.#ctor(Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},BookStore_API.Contracts.ILoggerService,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BookStore_API.Controllers.UsersController"/> class.
+            </summary>
+            <param name="signInManager">The sign in manager.</param>
+            <param name="userManager">The user manager.</param>
+        </member>
+        <member name="M:BookStore_API.Controllers.UsersController.Login(BookStore_API.DTOs.UserDTO)">
+             <summary>
+             User Login Endpoint.
+             </summary>
+             <param name="UserDTO"></param>
+            
+        </member>
     </members>
 </doc>

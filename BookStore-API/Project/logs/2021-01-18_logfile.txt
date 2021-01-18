@@ -1,0 +1,30 @@
+2021-01-18 13:35:32.6894 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:35:32.8362 INFO Users  - Login: customer1 Not Authenticated
+2021-01-18 13:35:59.9332 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:35:59.9855 INFO Users  - Login: customer1 Not Authenticated
+2021-01-18 13:36:31.0779 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:37:24.5349 INFO Users  - Login: customer1 Not Authenticated
+2021-01-18 13:39:01.3761 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:39:32.1232 INFO Users  - Login: customer1 Not Authenticated
+2021-01-18 13:39:37.4414 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:39:42.0352 INFO Users  - Login: customer1 Successfully Authenticated
+2021-01-18 13:40:40.6084 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:40:40.8587 INFO Users  - Login: customer1 Successfully Authenticated
+2021-01-18 13:41:58.0620 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:41:58.3264 INFO Users  - Login: customer1 Successfully Authenticated
+2021-01-18 13:52:27.5653 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:52:27.7818 INFO Users  - Login: customer1 Successfully Authenticated
+2021-01-18 13:53:10.5823 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:53:10.8327 INFO Users  - Login: customer1 Successfully Authenticated
+2021-01-18 13:55:15.7826 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 13:55:16.0218 INFO Users  - Login: customer1 Successfully Authenticated
+2021-01-18 14:22:49.5766 INFO Authors  - GetAuthors: Attempted call
+2021-01-18 14:22:49.7261 INFO {location}: Successfully got all Authors
+2021-01-18 14:23:23.9752 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-18 14:23:24.0326 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-18 14:25:11.1175 INFO Users  - Login: Login Attempt from user customer1 
+2021-01-18 14:25:11.3383 INFO Users  - Login: customer1 Successfully Authenticated
+2021-01-18 14:27:31.8869 INFO Users  - Login: Login Attempt from user admin 
+2021-01-18 14:27:31.9755 INFO Users  - Login: admin Successfully Authenticated
+2021-01-18 14:28:02.3804 INFO Authors  - Create:  Create attempted
+2021-01-18 14:28:02.6204 INFO Successfully created
