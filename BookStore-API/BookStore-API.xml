@@ -4,68 +4,6 @@
         <name>BookStore-API</name>
     </assembly>
     <members>
-        <member name="T:BookStore_API.Controllers.AuthorsController">
-            <summary>
-            Endpoint used to interact with the Authors in the book store's database
-            </summary>
-            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
-        </member>
-        <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthors">
-            <summary>
-            Gets all authors.
-            </summary>
-            <returns>List of Authors</returns>
-        </member>
-        <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthor(System.Int32)">
-            <summary> 
-            Gets the author by Id
-            </summary>
-            <param name="id">The identifier.</param>
-            <returns>Author's record</returns>
-        </member>
-        <member name="M:BookStore_API.Controllers.AuthorsController.Create(BookStore_API.DTOs.AuthorCreateDTO)">
-            <summary>
-            Creates the specified author dto.
-            </summary>
-            <param name="authorDTO">The author dto.</param>
-            <returns></returns>
-        </member>
-        <member name="M:BookStore_API.Controllers.AuthorsController.Update(System.Int32,BookStore_API.DTOs.AuthorUpdateDTO)">
-            <summary>
-            Update the specified author dto.
-            </summary>
-            <param name="id"></param>
-            <param name="authorDTO"></param>
-            <returns></returns>
-        </member>
-        <member name="M:BookStore_API.Controllers.AuthorsController.Delete(System.Int32)">
-            <summary>
-            Deletes the specified identifier.
-            </summary>
-            <param name="id">The identifier.</param>
-            <returns></returns>
-        </member>
-        <member name="M:BookStore_API.Controllers.BooksController.GetBooks">
-            <summary>
-            Gets the books.
-            </summary>
-            <returns>A List of Books</returns>
-        </member>
-        <member name="M:BookStore_API.Controllers.BooksController.GetBook(System.Int32)">
-            <summary>
-            Gets the book.
-            </summary>
-            <param name="id">The identifier.</param>
-            <returns></returns>
-        </member>
-        <member name="M:BookStore_API.Controllers.BooksController.Update(System.Int32,BookStore_API.DTOs.BookUpdateDTO)">
-            <summary>
-            Updates the specified identifier.
-            </summary>
-            <param name="id">The identifier.</param>
-            <param name="bookDTO">The book dto.</param>
-            <returns></returns>
-        </member>
         <member name="T:BookStore_API.Controllers.HomeController">
             <summary>
             this is a test API controller
@@ -84,20 +22,6 @@
             <returns>
               <br />
             </returns>
-        </member>
-        <member name="M:BookStore_API.Controllers.UsersController.#ctor(Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},BookStore_API.Contracts.ILoggerService,Microsoft.Extensions.Configuration.IConfiguration)">
-            <summary>
-            Initializes a new instance of the <see cref="T:BookStore_API.Controllers.UsersController"/> class.
-            </summary>
-            <param name="signInManager">The sign in manager.</param>
-            <param name="userManager">The user manager.</param>
-        </member>
-        <member name="M:BookStore_API.Controllers.UsersController.Login(BookStore_API.DTOs.UserDTO)">
-             <summary>
-             User Login Endpoint.
-             </summary>
-             <param name="UserDTO"></param>
-            
         </member>
     </members>
 </doc>

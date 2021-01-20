@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/joIafhHr4hI5sLje2XcJQH3E1jn6mv+3+OfSuvXhZqtfd6vBP7sNmT3yRDYAocohwkzsaNQSAicHbiG8AP5nQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CTriassi\\source\\repos\\BookStore-API\\BookStore-UI\\BookStore-UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CTriassi\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
