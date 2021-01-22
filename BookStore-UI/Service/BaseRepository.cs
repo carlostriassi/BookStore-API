@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-using BookStore_UI.Contract;
+using BookStore_UI.Contracts;
 using Newtonsoft.Json;
 
 namespace BookStore_UI.Service

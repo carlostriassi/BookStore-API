@@ -1,0 +1,17 @@
+2021-01-21 11:42:41.4775 INFO Users  - Register: Login Attempt for user@example.com
+2021-01-21 11:42:41.5867 ERROR Users  - Register: PasswordRequiresNonAlphanumeric Passwords must have at least one non alphanumeric character.
+2021-01-21 11:42:41.5867 ERROR Users  - Register: PasswordRequiresDigit Passwords must have at least one digit ('0'-'9').
+2021-01-21 11:42:41.6089 ERROR Users  - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z').
+2021-01-21 11:42:41.6184 ERROR Users  - Register: user@example.com User Registration Attempt Failed
+2021-01-21 11:43:16.6085 INFO Users  - Register: Login Attempt for user@example.com
+2021-01-21 11:43:16.6328 ERROR Users  - Register: PasswordRequiresNonAlphanumeric Passwords must have at least one non alphanumeric character.
+2021-01-21 11:43:16.6328 ERROR Users  - Register: PasswordRequiresDigit Passwords must have at least one digit ('0'-'9').
+2021-01-21 11:43:16.6559 ERROR Users  - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z').
+2021-01-21 11:43:16.6672 ERROR Users  - Register: user@example.com User Registration Attempt Failed
+2021-01-21 13:26:49.8497 INFO Users  - Register: Login Attempt for carlostriassi@yahoo.com
+2021-01-21 13:26:49.9141 ERROR Users  - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z').
+2021-01-21 13:26:49.9141 ERROR Users  - Register: carlostriassi@yahoo.com User Registration Attempt Failed
+2021-01-21 13:27:30.0632 INFO Users  - Register: Login Attempt for carlostriassi@yahoo.com
+2021-01-21 13:27:51.7463 ERROR Users  - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z').
+2021-01-21 13:27:51.7589 ERROR Users  - Register: carlostriassi@yahoo.com User Registration Attempt Failed
+2021-01-21 13:28:14.4997 INFO Users  - Register: Login Attempt for carlostriassi@yahoo.com

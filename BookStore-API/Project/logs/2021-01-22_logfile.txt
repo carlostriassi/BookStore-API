@@ -1,0 +1,59 @@
+2021-01-22 05:49:13.2285 INFO Users  - Register: Login Attempt for ctriassi@hsdyn.com
+2021-01-22 05:49:13.2896 ERROR Users  - Register: PasswordRequiresUpper Passwords must have at least one uppercase ('A'-'Z').
+2021-01-22 05:49:13.2896 ERROR Users  - Register: ctriassi@hsdyn.com User Registration Attempt Failed
+2021-01-22 05:49:30.1020 INFO Users  - Register: Login Attempt for ctriassi@hsdyn.com
+2021-01-22 05:49:45.9083 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 05:49:46.0303 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-22 05:54:03.1817 INFO Users  - Login: Login Attempt from user ctriassi@hsdyn.com 
+2021-01-22 05:54:03.2270 INFO Users  - Login: ctriassi@hsdyn.com Successfully Authenticated
+2021-01-22 06:16:41.7437 INFO Users  - Login: Login Attempt from user ctriassi@hsdyn.com 
+2021-01-22 06:16:41.9783 INFO Users  - Login: ctriassi@hsdyn.com Successfully Authenticated
+2021-01-22 06:16:42.0473 INFO Users  - Login: Login Attempt from user ctriassi@hsdyn.com 
+2021-01-22 06:16:42.0953 INFO Users  - Login: ctriassi@hsdyn.com Successfully Authenticated
+2021-01-22 06:26:04.3364 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:26:04.4211 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:26:19.1565 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:26:19.1782 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:26:44.4428 INFO Users  - Login: Login Attempt from user customer1@gmail.com 
+2021-01-22 06:26:44.4647 INFO Users  - Login: customer1@gmail.com Not Authenticated
+2021-01-22 06:27:17.4999 INFO Users  - Login: Login Attempt from user customer1@gmail.com 
+2021-01-22 06:27:17.5292 INFO Users  - Login: customer1@gmail.com Not Authenticated
+2021-01-22 06:41:06.6872 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:41:06.7233 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:41:08.0708 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:41:08.0859 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:41:08.3232 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:41:08.3509 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:41:08.5181 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:41:08.5343 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:41:08.6490 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:41:08.6625 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:45:20.5268 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:45:20.5495 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:46:17.9661 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:47:58.6621 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:48:01.3847 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 06:48:01.4105 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 06:48:10.0020 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 07:52:27.7113 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 07:52:27.8064 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 07:52:41.3001 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 08:06:35.1152 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 08:08:16.5521 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 08:08:29.4363 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 08:08:32.9778 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-22 08:23:44.2113 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 08:26:34.3831 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 08:26:34.5732 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-22 08:33:09.4456 INFO Users  - Login: Login Attempt from user customer1@gmail.com 
+2021-01-22 08:33:09.6408 INFO Users  - Login: customer1@gmail.com Successfully Authenticated
+2021-01-22 08:43:23.2409 INFO Users  - Login: Login Attempt from user customer2@gmail.com 
+2021-01-22 08:43:23.2946 INFO Users  - Login: customer2@gmail.com Successfully Authenticated
+2021-01-22 09:08:43.8527 INFO Users  - Login: Login Attempt from user ctriassi@hsdyn.com 
+2021-01-22 09:08:43.9305 INFO Users  - Login: ctriassi@hsdyn.com Successfully Authenticated
+2021-01-22 09:09:13.4958 INFO Users  - Register: Login Attempt for mark@gmail.com
+2021-01-22 09:09:27.6954 INFO Users  - Login: Login Attempt from user mark@gmail.com 
+2021-01-22 09:09:27.7387 INFO Users  - Login: mark@gmail.com Successfully Authenticated
+2021-01-22 09:12:34.3818 INFO Users  - Register: Login Attempt for peter@gmail.com
+2021-01-22 09:13:10.3367 INFO Users  - Login: Login Attempt from user peter@gmail.com 
+2021-01-22 09:13:10.4715 INFO Users  - Login: peter@gmail.com Successfully Authenticated

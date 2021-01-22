@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "material-ui@4.11.2",
+      "destination": "wwwroot/lib/material-ui/"
+    },
+    {
+      "library": "material-kit@2.0.6",
+      "destination": "wwwroot/lib/material-kit/"
+    },
+    {
+      "library": "material-components-web@9.0.0",
+      "destination": "wwwroot/lib/material-components-web/"
+    },
+    {
+      "library": "material-colors@1.2.6",
+      "destination": "wwwroot/lib/material-colors/"
+    },
+    {
+      "library": "material-scrolltop@2.0.1",
+      "destination": "wwwroot/lib/material-scrolltop/"
+    }
+  ]
+}
