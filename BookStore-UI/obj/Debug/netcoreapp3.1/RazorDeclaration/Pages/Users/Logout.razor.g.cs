@@ -77,6 +77,20 @@ using BookStore_UI.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 11 "C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\_Imports.razor"
+using BookStore_UI.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\_Imports.razor"
+using BookStore_UI.Static;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 4 "C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\Pages\Users\Logout.razor"
 using BookStore_UI.Contracts;
 

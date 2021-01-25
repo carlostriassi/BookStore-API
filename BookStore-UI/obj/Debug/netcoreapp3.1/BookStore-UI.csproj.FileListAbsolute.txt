@@ -72,3 +72,17 @@ C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.
 C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\BookStore-UI.dll
 C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\BookStore-UI.pdb
 C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\BookStore-UI.genruntimeconfig.cache
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Authors\Index.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\Razor\Pages\Authors\Index.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Authors\View.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\Razor\Pages\Authors\View.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Authors\Edit.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\LoadingMessage.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\Razor\Pages\Authors\Edit.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\Razor\Shared\LoadingMessage.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Authors\Delete.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\ErrorMessage.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\Razor\Pages\Authors\Delete.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\Razor\Shared\ErrorMessage.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Authors\Create.razor.g.cs
+C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\obj\Debug\netcoreapp3.1\Razor\Pages\Authors\Create.razor.g.cs

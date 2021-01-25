@@ -6,6 +6,7 @@ using BookStore_API.Contracts;
 using BookStore_API.Data;
 using Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace BookStore_API.Services
 {
@@ -19,7 +20,9 @@ namespace BookStore_API.Services
         }
         public async Task<IList<Author>> FindAll()
         {
-            var authors = await _db.Authors.ToListAsync();
+            var authors = await _db.Authors
+                .Include(q => q.Books)
+                .ToListAsync();
 
             return authors;
 
@@ -27,7 +30,9 @@ namespace BookStore_API.Services
 
         public async Task<Author> FindById(int id)
         {
-            var author = await _db.Authors.FindAsync(id);
+            var author = await _db.Authors
+                .Include(q => q.Books)
+                .FirstOrDefaultAsync(q => q.Id == id);
 
             return author;
         }

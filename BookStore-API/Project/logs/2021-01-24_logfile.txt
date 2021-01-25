@@ -1,0 +1,284 @@
+2021-01-24 16:08:58.6631 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-24 16:08:58.8748 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-24 16:09:01.3940 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:09:01.4543 INFO {location}: Successfully got all Authors
+2021-01-24 16:09:11.3422 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 16:09:11.3822 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 16:12:17.5605 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:12:17.5752 INFO {location}: Successfully got all Authors
+2021-01-24 16:12:23.0243 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:12:23.0437 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:21:07.2522 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-24 16:21:07.4416 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-24 16:21:09.5363 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:21:09.6001 INFO {location}: Successfully got all Authors
+2021-01-24 16:21:11.3410 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:21:11.3709 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:21:16.5299 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:21:16.5453 INFO {location}: Successfully got all Authors
+2021-01-24 16:21:18.2012 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:21:18.2174 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:23:52.8814 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:23:53.0141 INFO {location}: Successfully got all Authors
+2021-01-24 16:23:54.7377 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:23:54.7764 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:24:42.2074 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 16:24:42.3548 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-24 16:24:44.7045 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:24:44.7323 INFO {location}: Successfully got all Authors
+2021-01-24 16:24:46.1404 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:24:46.1556 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:24:51.8968 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:24:52.0572 INFO Authors  - Update: successfully updated
+2021-01-24 16:24:56.4365 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:24:56.4552 INFO {location}: Successfully got all Authors
+2021-01-24 16:24:59.8798 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:24:59.8977 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:25:54.3142 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:25:54.3394 INFO {location}: Successfully got all Authors
+2021-01-24 16:25:56.3910 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:25:56.4142 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:32:37.0997 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 16:32:37.3115 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-24 16:32:38.7953 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:32:38.8590 INFO {location}: Successfully got all Authors
+2021-01-24 16:32:44.5691 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:32:44.6030 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:32:45.9514 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:32:45.9676 INFO {location}: Successfully got all Authors
+2021-01-24 16:32:47.1297 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:32:47.1457 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:33:25.6291 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:33:25.7762 INFO Authors  - Update: successfully updated
+2021-01-24 16:33:37.0296 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:33:37.0500 INFO {location}: Successfully got all Authors
+2021-01-24 16:33:56.4602 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:33:56.4809 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:34:00.1222 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:34:00.1508 INFO Authors  - Update: successfully updated
+2021-01-24 16:34:01.1044 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:34:01.1223 INFO {location}: Successfully got all Authors
+2021-01-24 16:34:50.7829 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 16:34:50.9930 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-24 16:34:52.0001 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:34:52.0704 INFO {location}: Successfully got all Authors
+2021-01-24 16:34:53.4647 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:34:53.4959 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:52:13.5513 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 16:52:13.6717 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-24 16:52:19.9686 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 16:52:19.9994 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-24 16:52:30.5020 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 16:52:30.6248 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-24 16:52:33.6210 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:52:33.6760 INFO {location}: Successfully got all Authors
+2021-01-24 16:52:39.3592 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:52:39.3908 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:52:53.3855 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:52:53.5287 INFO Authors  - Update: successfully updated
+2021-01-24 16:53:09.6520 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:53:09.6660 INFO {location}: Successfully got all Authors
+2021-01-24 16:53:27.5124 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:53:27.5323 INFO {location}: Successfully got all Authors
+2021-01-24 16:53:33.1642 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:53:33.1820 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:53:35.1128 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:53:35.1278 INFO {location}: Successfully got all Authors
+2021-01-24 16:53:37.3185 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:53:37.3391 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:53:39.7676 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:53:39.7676 INFO {location}: Successfully got all Authors
+2021-01-24 16:53:41.1449 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:53:41.1654 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:53:45.0413 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:53:45.0636 INFO Authors  - Update: successfully updated
+2021-01-24 16:53:45.1247 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:53:45.1450 INFO {location}: Successfully got all Authors
+2021-01-24 16:53:49.2352 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:53:49.2520 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:53:51.3249 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:53:51.3410 INFO Authors  - Update: successfully updated
+2021-01-24 16:53:51.3779 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:53:51.3922 INFO {location}: Successfully got all Authors
+2021-01-24 16:53:52.4057 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:53:52.4205 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:53:57.1098 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:53:57.1303 INFO Authors  - Update: successfully updated
+2021-01-24 16:53:57.1750 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:53:57.2109 INFO {location}: Successfully got all Authors
+2021-01-24 16:53:58.4324 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:53:58.4481 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:54:00.4227 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:54:00.4509 INFO Authors  - Update: successfully updated
+2021-01-24 16:54:00.4893 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:54:00.5051 INFO {location}: Successfully got all Authors
+2021-01-24 16:54:02.4830 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 16:54:02.4982 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 16:54:09.0763 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 16:54:09.1046 INFO Authors  - Update: successfully updated
+2021-01-24 16:54:09.1549 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:54:09.1721 INFO {location}: Successfully got all Authors
+2021-01-24 16:54:25.7288 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 16:54:25.7428 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 16:54:27.5065 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:54:27.5447 INFO {location}: Successfully got all Authors
+2021-01-24 16:54:30.1208 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 16:54:30.1387 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 16:54:32.4239 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:54:32.4239 INFO {location}: Successfully got all Authors
+2021-01-24 16:55:20.0390 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 16:55:20.0692 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 16:55:21.4729 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:55:21.4866 INFO {location}: Successfully got all Authors
+2021-01-24 16:55:23.6209 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 16:55:23.6363 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 16:55:25.8001 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:55:25.8139 INFO {location}: Successfully got all Authors
+2021-01-24 16:55:39.0334 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 16:55:39.0334 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 16:55:45.0997 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:55:45.1125 INFO {location}: Successfully got all Authors
+2021-01-24 16:55:47.3899 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 16:55:47.4053 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 16:57:16.1019 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 16:57:16.2276 INFO {location}: Successfully got all Authors
+2021-01-24 16:57:23.1236 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 16:57:23.1710 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:01:07.3328 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:01:07.4650 INFO {location}: Successfully got all Authors
+2021-01-24 17:01:09.6350 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:01:09.7024 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:01:13.3467 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:01:13.3728 INFO {location}: Successfully got all Authors
+2021-01-24 17:01:14.4750 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 17:01:14.4917 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 17:01:18.3961 INFO Authors  - Update: Update attempted - id: 3
+2021-01-24 17:01:18.5434 INFO Authors  - Update: successfully updated
+2021-01-24 17:01:19.5710 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:01:19.5976 INFO {location}: Successfully got all Authors
+2021-01-24 17:03:41.2473 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 17:03:41.3816 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-24 17:03:43.1655 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:03:43.1807 INFO {location}: Successfully got all Authors
+2021-01-24 17:03:44.3961 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:03:44.4162 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:03:47.2475 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:03:47.2660 INFO {location}: Successfully got all Authors
+2021-01-24 17:03:48.9118 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:03:48.9344 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:03:51.3064 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:03:51.3239 INFO {location}: Successfully got all Authors
+2021-01-24 17:03:55.4261 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:03:55.4458 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:04:23.5113 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:04:23.5284 INFO {location}: Successfully got all Authors
+2021-01-24 17:04:25.0649 INFO Authors  - GetAuthor: Attempted find Author with id: 5
+2021-01-24 17:04:25.0867 INFO Authors  - GetAuthor: Successfully with id: 5
+2021-01-24 17:04:28.8255 INFO Authors  - Delete: Delete attempted - id: 5
+2021-01-24 17:04:28.8850 INFO Authors  - Delete:  id: 5 successfully deleted
+2021-01-24 17:04:28.9283 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:04:28.9421 INFO {location}: Successfully got all Authors
+2021-01-24 17:05:18.4287 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:05:18.4508 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:05:19.2565 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:05:19.2781 INFO {location}: Successfully got all Authors
+2021-01-24 17:05:20.7013 INFO Authors  - GetAuthor: Attempted find Author with id: 4
+2021-01-24 17:05:20.7161 INFO Authors  - GetAuthor: Successfully with id: 4
+2021-01-24 17:05:21.7758 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:05:21.7907 INFO {location}: Successfully got all Authors
+2021-01-24 17:05:23.2661 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 17:05:23.2830 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 17:05:24.4644 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:05:24.4840 INFO {location}: Successfully got all Authors
+2021-01-24 17:07:25.5803 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:07:25.7057 INFO {location}: Successfully got all Authors
+2021-01-24 17:26:19.9101 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 17:26:20.1217 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-24 17:26:22.3298 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:26:22.3993 INFO {location}: Successfully got all Authors
+2021-01-24 17:27:25.1442 INFO Authors  - Create:  Create attempted
+2021-01-24 17:27:25.3284 INFO Successfully created
+2021-01-24 17:27:25.3827 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:27:25.3977 INFO {location}: Successfully got all Authors
+2021-01-24 17:27:34.3914 INFO Authors  - GetAuthor: Attempted find Author with id: 6
+2021-01-24 17:27:34.4245 INFO Authors  - GetAuthor: Successfully with id: 6
+2021-01-24 17:27:38.7847 INFO Authors  - Update: Update attempted - id: 6
+2021-01-24 17:27:38.8381 INFO Authors  - Update: successfully updated
+2021-01-24 17:27:39.5433 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:27:39.5612 INFO {location}: Successfully got all Authors
+2021-01-24 17:52:46.4761 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-24 17:52:46.6733 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-24 17:52:48.1071 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:52:48.1678 INFO {location}: Successfully got all Authors
+2021-01-24 17:52:50.1029 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:52:50.1411 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:52:51.1041 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:52:51.1193 INFO {location}: Successfully got all Authors
+2021-01-24 17:53:21.2303 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:53:21.2527 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:53:43.9377 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:53:43.9701 INFO {location}: Successfully got all Authors
+2021-01-24 17:53:55.5351 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 17:53:55.5674 INFO Users  - Login: admin@bookstore.com Not Authenticated
+2021-01-24 17:54:00.7026 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 17:54:00.7402 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-24 17:54:02.4913 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:54:02.5096 INFO {location}: Successfully got all Authors
+2021-01-24 17:54:09.2152 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:54:09.2360 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:54:35.1938 INFO Authors  - Update: Update attempted - id: 2
+2021-01-24 17:54:35.3558 INFO Authors  - Update: successfully updated
+2021-01-24 17:54:35.8526 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:54:35.8749 INFO {location}: Successfully got all Authors
+2021-01-24 17:54:38.4690 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:54:38.4862 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:54:46.7273 INFO Authors  - Update: Update attempted - id: 2
+2021-01-24 17:54:46.7524 INFO Authors  - Update: successfully updated
+2021-01-24 17:54:46.7992 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:54:46.8197 INFO {location}: Successfully got all Authors
+2021-01-24 17:54:55.1911 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 17:54:55.2115 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 17:55:06.9394 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 17:55:06.9546 INFO {location}: Successfully got all Authors
+2021-01-24 18:14:06.9256 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-24 18:14:07.1229 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-24 18:14:10.4318 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:14:10.5587 INFO {location}: Successfully got all Authors
+2021-01-24 18:14:42.6938 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 18:14:42.7551 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 18:14:44.7260 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:14:44.7550 INFO {location}: Successfully got all Authors
+2021-01-24 18:14:45.9904 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-24 18:14:46.0061 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-24 18:14:46.8569 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:14:46.8725 INFO {location}: Successfully got all Authors
+2021-01-24 18:14:47.9452 INFO Authors  - GetAuthor: Attempted find Author with id: 4
+2021-01-24 18:14:47.9661 INFO Authors  - GetAuthor: Successfully with id: 4
+2021-01-24 18:14:48.8673 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:14:48.8831 INFO {location}: Successfully got all Authors
+2021-01-24 18:14:50.9178 INFO Authors  - GetAuthor: Attempted find Author with id: 6
+2021-01-24 18:14:50.9364 INFO Authors  - GetAuthor: Successfully with id: 6
+2021-01-24 18:14:51.9517 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:14:51.9682 INFO {location}: Successfully got all Authors
+2021-01-24 18:15:58.0974 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 18:15:58.1233 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 18:18:18.0977 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:18:18.1566 INFO {location}: Successfully got all Authors
+2021-01-24 18:18:23.2795 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 18:18:23.2964 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 18:19:37.6075 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:19:37.6336 INFO {location}: Successfully got all Authors
+2021-01-24 18:19:38.6610 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 18:21:34.1286 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 18:21:36.4638 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:21:36.5150 INFO {location}: Successfully got all Authors
+2021-01-24 18:21:37.6649 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 18:22:00.9280 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 18:29:51.1266 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-24 18:29:51.3422 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-24 18:29:53.4324 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:29:53.5681 INFO {location}: Successfully got all Authors
+2021-01-24 18:29:55.5883 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-24 18:29:55.6332 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-24 18:30:01.0776 INFO Authors  - GetAuthors: Attempted call
+2021-01-24 18:30:01.0938 INFO {location}: Successfully got all Authors

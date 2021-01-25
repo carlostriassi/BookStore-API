@@ -1,0 +1,82 @@
+﻿@page "/authors/view/{Id}"
+@using BookStore_UI.Static
+
+@inject IAuthorRepository _repo
+@inject NavigationManager _navManager
+
+<h3>
+    View Author Details
+</h3>
+
+@if (Model == null)
+{
+    <div class="alert alert-dismissible alert-secondary">
+        <LoadingMessage Message="Loading Author Details"/>;
+    </div>
+}
+else
+{
+    <div class="col col-md-4">
+        <table class="table table-responsive">
+            <tr>
+                <td>First Name</td>
+                <td>@Model.FirstName</td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>@Model.LastName</td>
+            </tr>
+            <tr>
+                <td>Biography</td>
+                <td>@Model.Bio</td>
+            </tr>
+            <br />
+            @if (Model.Books == null || Model.Books.Count == 0)
+            {
+                <div class="alert alert-dismissible alert-secondary">
+                    No Books for this author
+                </div>
+            }
+            else
+            {
+                
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header">
+                        <h4>Author's Books</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        @foreach (var book in Model.Books)
+                        {
+                            <li class="list-group-item">@book.Title - @book.Price</li>
+                        }
+                    </ul>
+                </div>
+            }
+            
+        </table>
+    </div>
+    
+}
+<br/>
+
+<button @onclick="BackToList" class="btn btn-outline-secondary">
+    <span class="oi oi-media-skip-backward"></span>
+    Back To List
+</button>
+
+@code {
+    [Parameter]
+    public string Id { get; set; }
+
+    private Author Model = new Author();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Model = await _repo.Get(Endpoints.AuthorsEndpoint, int.Parse(Id));
+    }
+
+    private void BackToList()
+    {
+        _navManager.NavigateTo("/authors/");
+    }
+}

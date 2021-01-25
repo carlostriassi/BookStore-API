@@ -72,6 +72,27 @@ using BookStore_UI.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\_Imports.razor"
+using BookStore_UI.Contracts;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\_Imports.razor"
+using BookStore_UI.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\CTriassi\source\repos\BookStore-API\BookStore-UI\_Imports.razor"
+using BookStore_UI.Static;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

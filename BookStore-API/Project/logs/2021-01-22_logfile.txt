@@ -57,3 +57,101 @@
 2021-01-22 09:12:34.3818 INFO Users  - Register: Login Attempt for peter@gmail.com
 2021-01-22 09:13:10.3367 INFO Users  - Login: Login Attempt from user peter@gmail.com 
 2021-01-22 09:13:10.4715 INFO Users  - Login: peter@gmail.com Successfully Authenticated
+2021-01-22 10:14:56.8804 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 10:14:57.0948 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-22 11:22:22.1805 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 11:22:22.3041 INFO Users  - Login: carlostriassi@yahoo.com Not Authenticated
+2021-01-22 11:22:40.5286 INFO Users  - Login: Login Attempt from user admin@bookstore.com 
+2021-01-22 11:22:40.6526 INFO Users  - Login: admin@bookstore.com Successfully Authenticated
+2021-01-22 11:22:48.9600 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 11:22:49.0153 INFO {location}: Successfully got all Authors
+2021-01-22 11:23:06.9531 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 11:23:06.9862 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-22 11:23:08.6706 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 11:23:08.6911 INFO {location}: Successfully got all Authors
+2021-01-22 16:07:25.1192 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 16:07:25.3113 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-22 16:07:28.1959 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:07:28.2605 INFO {location}: Successfully got all Authors
+2021-01-22 16:07:47.0756 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:07:47.0989 INFO {location}: Successfully got all Authors
+2021-01-22 16:08:14.3665 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:08:14.3926 INFO {location}: Successfully got all Authors
+2021-01-22 16:08:18.2807 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:08:18.2978 INFO {location}: Successfully got all Authors
+2021-01-22 16:08:20.1791 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:08:20.1998 INFO {location}: Successfully got all Authors
+2021-01-22 16:39:22.2596 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 16:39:22.4318 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-22 16:39:24.0790 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:39:24.1390 INFO {location}: Successfully got all Authors
+2021-01-22 16:40:47.8663 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:40:47.9960 INFO {location}: Successfully got all Authors
+2021-01-22 16:41:57.3702 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:41:57.4921 INFO {location}: Successfully got all Authors
+2021-01-22 16:43:27.7721 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 16:43:27.8989 INFO Users  - Login: carlostriassi@yahoo.com Not Authenticated
+2021-01-22 16:43:34.7366 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 16:43:34.8759 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-22 16:43:37.2127 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:43:37.2698 INFO {location}: Successfully got all Authors
+2021-01-22 16:44:05.1152 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:44:05.2443 INFO {location}: Successfully got all Authors
+2021-01-22 16:45:10.5062 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:45:10.6326 INFO {location}: Successfully got all Authors
+2021-01-22 16:45:50.9474 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:45:51.0604 INFO {location}: Successfully got all Authors
+2021-01-22 16:49:03.3053 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:49:03.4378 INFO {location}: Successfully got all Authors
+2021-01-22 16:50:30.5749 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:50:30.7074 INFO {location}: Successfully got all Authors
+2021-01-22 16:52:00.2751 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:52:00.3990 INFO {location}: Successfully got all Authors
+2021-01-22 16:52:30.6834 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-22 16:52:30.7351 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-22 16:52:37.3168 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:52:37.3430 INFO {location}: Successfully got all Authors
+2021-01-22 16:52:38.5526 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-22 16:52:38.5683 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-22 16:53:02.6049 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:53:02.6449 INFO {location}: Successfully got all Authors
+2021-01-22 16:53:03.8041 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-22 16:53:03.8404 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-22 16:53:05.5631 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:53:05.5803 INFO {location}: Successfully got all Authors
+2021-01-22 16:53:06.6675 INFO Authors  - GetAuthor: Attempted find Author with id: 4
+2021-01-22 16:53:06.6834 INFO Authors  - GetAuthor: Successfully with id: 4
+2021-01-22 16:53:07.6576 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:53:07.6737 INFO {location}: Successfully got all Authors
+2021-01-22 16:53:08.6088 INFO Authors  - GetAuthor: Attempted find Author with id: 5
+2021-01-22 16:53:08.6269 INFO Authors  - GetAuthor: Successfully with id: 5
+2021-01-22 16:53:10.4276 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:53:10.4434 INFO {location}: Successfully got all Authors
+2021-01-22 16:55:02.3209 INFO Users  - Login: Login Attempt from user carlostriassi@yahoo.com 
+2021-01-22 16:55:02.5143 INFO Users  - Login: carlostriassi@yahoo.com Successfully Authenticated
+2021-01-22 16:55:04.2015 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:55:04.2622 INFO {location}: Successfully got all Authors
+2021-01-22 16:55:06.6971 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-22 16:55:06.7312 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-22 16:55:09.9897 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:55:10.0058 INFO {location}: Successfully got all Authors
+2021-01-22 16:55:12.5121 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-22 16:55:12.5284 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-22 16:55:14.2809 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:55:14.2991 INFO {location}: Successfully got all Authors
+2021-01-22 16:55:53.9427 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:55:54.0690 INFO {location}: Successfully got all Authors
+2021-01-22 16:55:55.6542 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-22 16:55:55.6937 INFO Authors  - GetAuthor: Successfully with id: 2
+2021-01-22 16:55:57.8242 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:55:57.8398 INFO {location}: Successfully got all Authors
+2021-01-22 16:55:59.8122 INFO Authors  - GetAuthor: Attempted find Author with id: 3
+2021-01-22 16:55:59.8396 INFO Authors  - GetAuthor: Successfully with id: 3
+2021-01-22 16:56:00.9509 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:56:00.9724 INFO {location}: Successfully got all Authors
+2021-01-22 16:56:02.7156 INFO Authors  - GetAuthor: Attempted find Author with id: 5
+2021-01-22 16:56:02.7329 INFO Authors  - GetAuthor: Successfully with id: 5
+2021-01-22 16:58:21.2559 INFO Authors  - GetAuthors: Attempted call
+2021-01-22 16:58:21.3836 INFO {location}: Successfully got all Authors
+2021-01-22 16:58:29.7410 INFO Authors  - GetAuthor: Attempted find Author with id: 2
+2021-01-22 16:58:29.7816 INFO Authors  - GetAuthor: Successfully with id: 2

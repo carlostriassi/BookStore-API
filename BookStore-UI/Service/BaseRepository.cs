@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
+using Blazored.LocalStorage;
 using BookStore_UI.Contracts;
+using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 
 namespace BookStore_UI.Service
@@ -13,10 +17,13 @@ namespace BookStore_UI.Service
     public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         private readonly IHttpClientFactory _client;
+        private readonly ILocalStorageService _localStorage;
 
-        public BaseRepository(IHttpClientFactory client)
+        public BaseRepository(IHttpClientFactory client,
+            ILocalStorageService localStorage)
         {
             _client = client;
+            _localStorage = localStorage;
         }
 
         public async  Task<bool> Create(string url, T obj)
@@ -29,6 +36,9 @@ namespace BookStore_UI.Service
 
             request.Content = new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, $"application/json");
             var client = _client.CreateClient();
+
+            var token = await GetBearerToken();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token);
 
             HttpResponseMessage response = await client.SendAsync(request);
             if (response.StatusCode == HttpStatusCode.Created)
@@ -45,8 +55,11 @@ namespace BookStore_UI.Service
                 return null;
 
             var request = new HttpRequestMessage(HttpMethod.Get, url+id);
-            
+
             var client = _client.CreateClient();
+
+            var token = await GetBearerToken();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token);
 
             HttpResponseMessage response = await client.SendAsync(request);
             if (response.StatusCode == HttpStatusCode.OK)
@@ -65,6 +78,8 @@ namespace BookStore_UI.Service
 
             var client = _client.CreateClient();
 
+            var token = await GetBearerToken();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token);
             HttpResponseMessage response = await client.SendAsync(request);
             if (response.StatusCode == HttpStatusCode.OK)
             {
@@ -78,12 +93,12 @@ namespace BookStore_UI.Service
 
    
 
-        public async Task<bool> Update(string url, T obj)
+        public async Task<bool> Update(string url, T obj, int id)
         {
             if (obj == null)
                 return false;
 
-            var request = new HttpRequestMessage(HttpMethod.Put, url);
+            var request = new HttpRequestMessage(HttpMethod.Put, url+id);
 
             request.Content =
                 new StringContent(JsonConvert.SerializeObject(obj), 
@@ -91,6 +106,8 @@ namespace BookStore_UI.Service
             
             var client = _client.CreateClient();
 
+            var token = await GetBearerToken();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token);
             HttpResponseMessage response = await client.SendAsync(request);
             if (response.StatusCode == HttpStatusCode.NoContent)
             {
@@ -109,6 +126,9 @@ namespace BookStore_UI.Service
             
             var client = _client.CreateClient();
 
+            var token = await GetBearerToken();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", token);
+
             HttpResponseMessage response = await client.SendAsync(request);
             if (response.StatusCode == HttpStatusCode.NoContent)
             {
@@ -116,6 +136,13 @@ namespace BookStore_UI.Service
             }
 
             return false;
+        }
+
+        private async Task<string> GetBearerToken()
+        {
+            var savedToken = await _localStorage.GetItemAsync<string>("authToken");
+
+            return savedToken;
         }
     }
 }
